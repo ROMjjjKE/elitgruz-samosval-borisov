@@ -1,0 +1,32 @@
+<section class="pin" id="demontazh">
+  <div class="stage wrap">
+    <div class="bld">
+      <svg viewBox="0 0 280 420" role="img" aria-labelledby="bt bd">
+        <title id="bt">Демонтаж здания по слоям</title>
+        <desc id="bd">Схема здания: по скроллу последовательно исчезают кровля, верхний этаж, стены и фундамент, а под ними остаётся расчищенная площадка.</desc>
+        <g id="l-roof"><path d="M40 120 140 60l100 60" fill="none" stroke="#8e948c" stroke-width="3"/><path d="M60 120v14h160v-14" fill="none" stroke="#8e948c" stroke-width="1.6"/></g>
+        <g id="l-top"><rect x="60" y="140" width="160" height="90" fill="none" stroke="#8e948c" stroke-width="2"/><path d="M100 140v90M160 140v90" stroke="#8e948c" stroke-width="1.2"/></g>
+        <g id="l-mid"><rect x="60" y="236" width="160" height="94" fill="none" stroke="#8e948c" stroke-width="2"/><path d="M100 236v94M160 236v94" stroke="#8e948c" stroke-width="1.2"/></g>
+        <g id="l-base"><rect x="44" y="336" width="192" height="26" fill="none" stroke="#8e948c" stroke-width="2"/><path d="M44 336h192" stroke="#8e948c" stroke-width="1.2"/></g>
+        <rect id="ground" x="20" y="368" width="240" height="3" fill="#b6c78a"/>
+        <g id="dust" opacity="0">
+          <circle cx="70" cy="340" r="9" fill="#b6c78a" opacity=".35"/>
+          <circle cx="140" cy="352" r="13" fill="#b6c78a" opacity=".28"/>
+          <circle cx="208" cy="344" r="8" fill="#b6c78a" opacity=".32"/>
+        </g>
+      </svg>
+    </div>
+    <div class="st-copy">
+      <span class="mark">Как идёт демонтаж</span>
+      <h2>Сверху вниз: сначала кровля, потом стены, потом фундамент</h2>
+      <ul class="st-list" id="stList">
+        <li><i>01</i><div><b>Обследование</b><p>Смотрим несущие элементы и то, что осталось в здании: иногда разбирать опаснее, чем кажется со стороны.</p></div></li>
+        <li><i>02</i><div><b>Кровля и перекрытия</b><p>Снимаем сверху, чтобы не обрушить стены на людей и технику. Материал сразу грузим в самосвал.</p></div></li>
+        <li><i>03</i><div><b>Стены и фундамент</b><p>Разбираем конструкции и выбираем основание. Бетон — отдельная работа и отдельный вес.</p></div></li>
+        <li><i>04</i><div><b>Вывоз и чистая площадка</b><p>Мусор уходит самосвалом 20–30 тонн, площадка остаётся под новое строительство.</p></div></li>
+      </ul>
+      <div class="bar"><span id="progressTxt">0%</span><div class="track"><div class="fill" id="barFill"></div></div><span>демонтаж</span></div>
+      <p style="margin-top:14px;font-size:.84rem;color:#a8aaa2;max-width:52ch">Скорость и способ разборки зависят от материала: панель, кирпич и дерево разбираются по-разному. Поэтому цена — после осмотра.</p>
+    </div>
+  </div>
+</section>
